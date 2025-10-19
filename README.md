@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ALX Listing App
 
-## Getting Started
+The **ALX Listing App** is a modern web application scaffold for building an Airbnb clone listing page.  
+This project establishes a robust foundation using **Next.js**, **TypeScript**, **Tailwind CSS**, and **ESLint**, following best practices for scalability, maintainability, and clean code.
 
-First, run the development server:
+---
+
+## 🚀 Project Goals
+
+- Create a production-ready scaffold for an Airbnb-style property listing page.
+- Use **TypeScript** for type safety and reusable interfaces.
+- Build responsive, accessible UI components with **Tailwind CSS**.
+- Organize the codebase for clarity and scalability.
+- Maintain code quality with **ESLint**.
+
+---
+
+## 📂 Project Structure
+
+- components/ # Reusable UI components (e.g., Button, Navbar, Card)
+- interfaces/ # TypeScript interfaces and types for props, data models
+- constants/ # Static values (e.g., enums, config objects, static lists)
+- public/assets/ # Static assets like images, icons, fonts
+- pages/ # Next.js pages (routes).
+
+---
+
+## 🛠️ Getting Started
+
+Follow these instructions to run the project locally:
+
 
 ```bash
+### 1️⃣ Clone the repository
+
+git clone https://github.com/kingsleyiwuchukwu/alx-listing-app
+
+cd alx-listing-app
+
+### 2️⃣ Install dependencies
+
+npm install
+
+### 3️⃣ Run the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
